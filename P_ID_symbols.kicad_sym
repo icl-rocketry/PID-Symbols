@@ -171,17 +171,6 @@
 			)
 		)
 		(symbol "Burst_Disc_1_1"
-			(circle
-				(center 0 0)
-				(radius 3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 3.81) (xy -3.048 -2.286) (xy 3.048 -2.286) (xy 0 3.81)
@@ -192,6 +181,17 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(pin passive line

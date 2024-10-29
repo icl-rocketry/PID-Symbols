@@ -52,7 +52,7 @@
 		(symbol "Ball_Valve_1_1"
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
+					(xy 3.81 0) (xy 0 -2.54) (xy 0 2.54) (xy 3.81 0)
 				)
 				(stroke
 					(width 0)
@@ -64,12 +64,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
+					(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
 				)
 				(stroke
-					(width 0.2)
-					(type solid)
-					(color 0 0 0 1)
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type background)
@@ -81,7 +80,6 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 224 108 117 1)
 				)
 				(fill
 					(type outline)
@@ -334,12 +332,11 @@
 		(symbol "Check_Valve_1_1"
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 3.81 0) (xy 2.54 -1.27) (xy 5.08 -2.54)
+					(xy 5.08 -2.54) (xy 2.54 -1.27) (xy 3.81 0) (xy 5.08 -2.54)
 				)
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 0 0 1)
 				)
 				(fill
 					(type outline)
@@ -1281,7 +1278,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "T"
-			(at 4.826 4.826 0)
+			(at 6.35 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
