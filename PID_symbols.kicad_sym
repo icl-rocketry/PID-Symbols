@@ -12583,7 +12583,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "PT"
-			(at 0 -5.334 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
