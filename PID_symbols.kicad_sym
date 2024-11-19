@@ -3552,17 +3552,6 @@
 			)
 		)
 		(symbol "Pneumatic_Rotary_Ball_Valve_1_1"
-			(circle
-				(center 0 0)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
 					(xy -1.27 3.81) (xy -1.27 6.35)
@@ -3636,8 +3625,19 @@
 					(type background)
 				)
 			)
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin passive line
-				(at -3.81 0 180)
+				(at -6.35 0 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -3691,7 +3691,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 0)
+				(at 6.35 0 180)
 				(length 2.54)
 				(name ""
 					(effects
