@@ -3823,7 +3823,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Pressure_Regulator"
+		(property "Reference" "Reg"
 			(at 4.318 -3.81 0)
 			(effects
 				(font
@@ -3857,7 +3857,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pressure Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Pressure Regulator"
 			(at 0 0 0)
 			(effects
 				(font
