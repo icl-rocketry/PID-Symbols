@@ -247,7 +247,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Ball_Valve"
+		(property "Reference" "B_V"
 			(at 3.81 -4.318 0)
 			(effects
 				(font
@@ -495,7 +495,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Check_Valve"
+		(property "Reference" "C_V"
 			(at 2.54 -4.064 0)
 			(effects
 				(font
@@ -3645,7 +3645,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "MBV"
+		(property "Reference" "MB_V"
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -4545,7 +4545,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at 0 -2.54 90)
 				(length 0)
 				(name ""
 					(effects
