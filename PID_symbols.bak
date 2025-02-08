@@ -4719,7 +4719,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Reg"
-			(at 4.318 -3.81 0)
+			(at 3.81 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4753,7 @@
 			)
 		)
 		(property "Description" "Pressure Regulator"
-			(at 0 0 0)
+			(at 3.81 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
