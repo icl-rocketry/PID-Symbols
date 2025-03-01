@@ -704,9 +704,9 @@
 		)
 		(symbol "Common_Dome_Tank_0_1"
 			(arc
-				(start 7.62 -7.62)
-				(mid 0 -10.7763)
-				(end -7.62 -7.62)
+				(start 6.35 -7.62)
+				(mid 0 -10.2502)
+				(end -6.35 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -718,8 +718,8 @@
 		)
 		(symbol "Common_Dome_Tank_1_1"
 			(rectangle
-				(start -7.62 13.97)
-				(end 7.62 -24.13)
+				(start -6.35 7.62)
+				(end 6.35 -16.51)
 				(stroke
 					(width 0)
 					(type solid)
@@ -729,9 +729,9 @@
 				)
 			)
 			(arc
-				(start -7.62 13.97)
-				(mid 0 17.1263)
-				(end 7.62 13.97)
+				(start -6.35 7.62)
+				(mid 0 10.2502)
+				(end 6.35 7.62)
 				(stroke
 					(width 0)
 					(type solid)
@@ -741,9 +741,9 @@
 				)
 			)
 			(arc
-				(start 7.62 -24.13)
-				(mid 0 -27.2863)
-				(end -7.62 -24.13)
+				(start 6.35 -16.51)
+				(mid 0 -19.1401)
+				(end -6.35 -16.51)
 				(stroke
 					(width 0)
 					(type solid)
@@ -753,7 +753,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 16.51 270)
+				(at -5.08 8.89 270)
 				(length 0)
 				(name ""
 					(effects
@@ -771,7 +771,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -26.67 90)
+				(at -5.08 -17.78 90)
 				(length 0)
 				(name ""
 					(effects
@@ -789,7 +789,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 17.78 270)
+				(at -2.54 10.16 270)
 				(length 0)
 				(name ""
 					(effects
@@ -807,7 +807,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -27.94 90)
+				(at -2.54 -19.05 90)
 				(length 0)
 				(name ""
 					(effects
@@ -825,7 +825,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 16.51 270)
+				(at 0 10.16 270)
 				(length 0)
 				(name ""
 					(effects
@@ -843,7 +843,79 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -26.67 90)
+				(at 0 -10.16 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 10.16 270)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -19.05 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 8.89 270)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -17.78 90)
 				(length 0)
 				(name ""
 					(effects
