@@ -4011,13 +4011,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -4.064 -1.016 0)
+		(property "Reference" "Filter"
+			(at 0 -3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" ""
@@ -4058,7 +4057,7 @@
 		(symbol "Filter_0_1"
 			(polyline
 				(pts
-					(xy -1.778 0.508) (xy 1.778 0.508)
+					(xy -0.635 -1.143) (xy -0.635 1.397)
 				)
 				(stroke
 					(width 0)
@@ -4070,7 +4069,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 -0.508) (xy 1.778 -0.508)
+					(xy -0.127 -0.381) (xy -0.127 0.635)
 				)
 				(stroke
 					(width 0)
@@ -4082,7 +4081,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 0) (xy 1.016 0)
+					(xy 0.381 -1.143) (xy 0.381 1.397)
 				)
 				(stroke
 					(width 0)
@@ -4095,8 +4094,8 @@
 		)
 		(symbol "Filter_1_1"
 			(rectangle
-				(start -1.778 3.048)
-				(end 1.778 -3.048)
+				(start -3.175 -1.651)
+				(end 2.921 1.905)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4107,7 +4106,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 2.54) (xy 1.778 2.54)
+					(xy -2.667 -1.143) (xy -2.667 1.397)
 				)
 				(stroke
 					(width 0)
@@ -4119,7 +4118,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 1.524) (xy 1.778 1.524)
+					(xy -2.159 1.397) (xy -2.159 1.905)
 				)
 				(stroke
 					(width 0)
@@ -4131,7 +4130,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 -1.524) (xy 1.778 -1.524)
+					(xy -2.159 -0.381) (xy -2.159 0.635)
 				)
 				(stroke
 					(width 0)
@@ -4143,7 +4142,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 -2.54) (xy 1.778 -2.54)
+					(xy -2.159 -1.651) (xy -2.159 -1.143)
 				)
 				(stroke
 					(width 0)
@@ -4155,7 +4154,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 2.032) (xy 1.016 2.032)
+					(xy -1.651 -1.143) (xy -1.651 1.397)
 				)
 				(stroke
 					(width 0)
@@ -4167,7 +4166,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 1.016) (xy 1.016 1.016)
+					(xy -1.143 1.397) (xy -1.143 1.905)
 				)
 				(stroke
 					(width 0)
@@ -4179,7 +4178,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -1.016) (xy 1.016 -1.016)
+					(xy -1.143 -0.381) (xy -1.143 0.635)
 				)
 				(stroke
 					(width 0)
@@ -4191,7 +4190,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -2.032) (xy 1.016 -2.032)
+					(xy -1.143 -1.651) (xy -1.143 -1.143)
 				)
 				(stroke
 					(width 0)
@@ -4199,6 +4198,162 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.127 1.397) (xy -0.127 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.127 -1.651) (xy -0.127 -1.143)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.889 1.397) (xy 0.889 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.889 -0.381) (xy 0.889 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.889 -1.651) (xy 0.889 -1.143)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.397 -1.143) (xy 1.397 1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 1.397) (xy 1.905 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -0.381) (xy 1.905 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -1.651) (xy 1.905 -1.143)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.413 -1.143) (xy 2.413 1.397)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.715 0.127 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.461 0.127 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
