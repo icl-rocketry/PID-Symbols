@@ -4731,7 +4731,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "H"
+		(property "Reference" "Hose"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4828,14 +4828,14 @@
 			(pin passive line
 				(at 0 7.62 270)
 				(length 1.27)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4846,14 +4846,14 @@
 			(pin passive line
 				(at 0 0 90)
 				(length 1.27)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
