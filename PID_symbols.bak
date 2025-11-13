@@ -7023,7 +7023,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "3/2Solenoid"
-			(at 0.254 -6.35 0)
+			(at 0.254 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,6 +7063,130 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(symbol "Solenoid_3/2_0_1"
+			(polyline
+				(pts
+					(xy -8.128 6.35) (xy -9.398 3.81) (xy -6.858 3.81) (xy -8.128 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Solenoid_3/2_1_1"
+			(rectangle
+				(start -13.97 6.477)
+				(end 13.97 -6.223)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.128 3.81) (xy -8.128 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 -6.096) (xy -2.286 -4.318) (xy -3.556 -4.318) (xy -1.016 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 0 -6.096)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -6.096) (xy 2.286 -4.318) (xy 1.016 -4.318) (xy 3.556 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.652 -4.318) (xy 4.572 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.668 -6.35) (xy 10.668 -3.81) (xy 8.636 -4.826) (xy 10.668 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "2"
+				(at 2.286 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "1"
+				(at 2.286 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "3"
+				(at 10.668 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
 		)
 		(embedded_fonts no)
@@ -7310,6 +7434,96 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 6.35 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -6.35 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.3828 -6.3236 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 9.6031 6.3206 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.6828 -6.3089 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
