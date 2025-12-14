@@ -1454,8 +1454,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Coriolis_"
-			(at -0.254 -3.556 0)
+		(property "Reference" "CF"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,19 +1488,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Coriolis_Desc"
+			(at 0 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Coriolis_Flow_1_1"
 			(rectangle
-				(start -2.54 2.54)
-				(end 2.54 -2.54)
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1511,7 +1510,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.15 0) (xy -1.52 0) (xy -0.75 1.25) (xy 0.25 -1.25) (xy 0.893 0) (xy 1.655 0)
+					(xy -5.08 0) (xy -4.064 0) (xy -2.286 2.794) (xy 1.016 -2.794) (xy 2.54 0) (xy 4.318 0)
 				)
 				(stroke
 					(width 0)
@@ -1523,7 +1522,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.5 0) (xy -1 0) (xy -0.25 1.25) (xy 0.8 -1.25) (xy 1.45 0) (xy 2.15 0)
+					(xy -4.572 0) (xy -2.794 0) (xy -1.016 2.794) (xy 2.286 -2.794) (xy 3.81 0) (xy 5.08 0)
 				)
 				(stroke
 					(width 0)
@@ -1534,8 +1533,8 @@
 				)
 			)
 			(circle
-				(center 0 6.35)
-				(radius 1.905)
+				(center 0 9.652)
+				(radius 2.032)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1546,7 +1545,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 4.445)
+					(xy 0 5.1434) (xy 0 7.62)
 				)
 				(stroke
 					(width 0)
@@ -1557,7 +1556,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 0 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1575,7 +1574,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1656,6 +1655,221 @@
 			)
 			(pin passive line
 				(at 0 -16.51 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DP_Sensor"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DP"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DP_Sensor_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -2.54) (xy -0.635 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -5.715) (xy 1.905 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.905) (xy -1.27 -3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -5.08) (xy 1.905 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DP_Sensor_1_1"
+			(rectangle
+				(start -2.5399 -1.2699)
+				(end 2.5399 -6.9849)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 4.445)
+				(radius 3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "DP\nPT\n"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -3.175 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -5.715 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -3.175 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -5.715 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1878,8 +2092,7 @@
 				)
 				(stroke
 					(width 0.25)
-					(type default)
-					(color 224 108 117 1)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -6655,8 +6868,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Reg"
-			(at 3.81 -2.54 0)
+		(property "Reference" "Servo_Reg"
+			(at 3.81 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,6 +6909,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "Pressure Regulator"
@@ -6746,6 +6967,7 @@
 			)
 		)
 		(symbol "Pressure_Regulator_1_1"
+			(unit_name "Reg")
 			(polyline
 				(pts
 					(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
@@ -6813,6 +7035,203 @@
 				)
 				(stroke
 					(width 0.25)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0) (xy 7.62 2.54) (xy 7.62 -2.54) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Pressure_Regulator_1_2"
+			(unit_name "Reg")
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Pressure_Regulator_2_1"
+			(unit_name "Servo-Reg")
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54) (xy 3.81 0) (xy 0 -2.54) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 2.794) (xy 5.588 2.794) (xy 5.334 3.048) (xy 4.826 3.302) (xy 3.81 3.556) (xy 2.794 3.302)
+					(xy 2.286 3.048) (xy 2.032 2.794)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.54 10.795)
+				(end 5.08 6.985)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 3.175 5.715)
+				(end 4.445 5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 4.318) (xy 3.81 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy 3.81 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy 3.81 3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.032 2.794)
+				(mid 3.81 3.5305)
+				(end 5.588 2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0.254) (xy 7.62 4.318) (xy 3.81 4.318)
+				)
+				(stroke
+					(width 0.25)
 					(type default)
 					(color 224 108 117 1)
 				)
@@ -6832,6 +7251,45 @@
 					(type background)
 				)
 			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Pressure_Regulator_2_2"
+			(unit_name "Servo-Reg")
 			(pin passive line
 				(at -2.54 0 0)
 				(length 2.54)
@@ -8547,7 +9005,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
+				(at 0 20.32 90)
 				(length 0)
 				(name ""
 					(effects
